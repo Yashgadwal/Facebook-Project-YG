@@ -196,3 +196,7 @@ h1{
 h1 span{
     color: red;
 }
+
+section{
+display:none;
+}
