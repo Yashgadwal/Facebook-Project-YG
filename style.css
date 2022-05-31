@@ -329,4 +329,8 @@ h1 span{
     .footer{
         font-family: Arial, Helvetica, sans-serif;
     }
+    
+    .mobileScreen{
+        display:block;
+    }
 }
