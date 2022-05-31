@@ -1,0 +1,198 @@
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #F0F2F5;
+}
+
+h1{
+    margin-top: -1.5rem;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: rgb(25,118,242);
+}
+
+.form{
+    height: 38rem;
+    width: 30rem;
+    border-radius: 10px;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: -1rem;
+}
+
+.txt1{
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+}
+
+.txt2{
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    color: #616670;
+}
+
+.line{
+    height: 0.1px;
+    width: 100%;
+    background-color: rgb(198, 190, 190);
+}
+
+.txtbox{
+    height: 2.2rem;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-left: 1rem;
+    width: 13rem;
+    border: 0.1px solid rgb(198, 190, 190);
+    font-size: 1.1rem;
+    padding-left: 1rem;
+}
+
+#mobile{
+    height: 2.2rem;
+    border-radius: 4px;
+    width: 27.2rem;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    border: 0.1px solid rgb(198, 190, 190);
+}
+
+#pass{
+    height: 2.2rem;
+    border-radius: 4px;
+    width: 27.2rem;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    border: 0.1px solid rgb(198, 190, 190);
+}
+
+.dob{
+    color: rgb(107, 103, 103);
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.gen1{
+    color: rgb(107, 103, 103);
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin-left: 1rem;
+    display: inline-block;
+}
+
+.fa-circle-question{
+    color: rgb(107, 103, 103);
+}
+
+#days{
+    height: 36px;
+    line-height: 20px;
+    width: 8.5rem;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+#month{
+    height: 36px;
+    line-height: 20px;
+    width: 8.5rem;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-left: 1rem;
+}
+
+#year{
+    height: 36px;
+    line-height: 20px;
+    width: 8.5rem;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-left: 1rem;
+}
+
+.number{
+    margin-top: 10px;
+}
+.c1{
+    display: inline-block;
+    width: 5rem;
+    padding: 10px;
+    margin-left: 1rem;
+    border-radius: 4px;
+    width: 8.5rem;
+    justify-content: space-between;
+    line-height: 14px;
+    margin-top: 1rem;
+    border: 0.1px solid rgb(198, 190, 190);
+}
+
+.policy{
+    font-size: 12.5px;
+    margin-top: 10px;
+    margin-left: 1rem;
+    color: rgb(90, 82, 82);
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+}
+
+.bttn{
+    background-color: #00A501;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 1.4rem;
+    padding: 6px;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    width: 12rem;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    cursor: pointer;
+}
+
+.bttn:hover{
+    background-color: #119611;
+}
+
+.haveAnAccount a{
+    font-size: 1.2rem;
+    color: rgb(77,146,244);
+    font-weight: 500;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+}
+
+h1 span{
+    color: red;
+}
