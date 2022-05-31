@@ -200,3 +200,133 @@ h1 span{
 .mobileScreen{
     display:none;
 }
+
+
+
+@media screen and (max-width:1432px) {
+    #para {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    form {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .txt11 {
+        line-height: 3rem;
+        font-size: 1rem;
+        color: #3984e7;
+        display: block;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+
+    .banner {
+        background-color: #fbfbc6;
+        display: block;
+    }
+
+    .heading1 h2 {
+        display: block;
+        font-size: 2rem;
+        font-family: Helvetica, Arial, sans-serif;
+        color: #3984e7;
+        font-weight: bolder;
+    }
+
+    .heading1 {
+        margin-top: 8px;
+    }
+
+    .form {
+        display: block;
+    }
+
+    .box {
+        width: 18rem;
+        height: 2.2rem;
+        margin-top: 10px;
+        border: 0.1px solid rgb(198, 190, 190);
+        padding-left: 1rem;
+        background: rgba(233, 229, 229, 0.298);
+    }
+
+    #logIn {
+        width: 19rem;
+        height: 2rem;
+        background-color: #1877F2;
+        color: white;
+        border: none;
+        margin-top: 10px;
+    }
+
+    #logIn:hover {
+        background-color: #1c69cd;
+    }
+
+    .forPass {
+        color: #1877F2;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .or {
+        font-size: 1.3rem;
+        margin-right: 1rem;
+    }
+
+    .line1 {
+        height: 1px;
+        width: 40%;
+        background: gray;
+        margin-right: 1rem;
+    }
+
+    .line2 {
+        margin-left: 1rem;
+        height: 1px;
+        width: 40%;
+        background: gray;
+    }
+
+    .cAcc {
+        padding: .5rem;
+        border: none;
+        background-color: #2bbf2b;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+    }
+
+    .mobileScreen {
+        display: block;
+    }
+
+    .lang{
+        justify-content: space-evenly;
+        margin-top: 10rem;
+    }
+
+    .lang1{
+        color: #1462c9;
+    }
+
+    .lang2{
+        color: #1462c9;
+    }
+
+    .footer{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
