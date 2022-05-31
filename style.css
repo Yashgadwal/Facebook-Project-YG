@@ -197,6 +197,6 @@ h1 span{
     color: red;
 }
 
-section{
-display:none;
+.mobileScreen{
+    display:none;
 }
